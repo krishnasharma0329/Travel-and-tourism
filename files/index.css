@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #031926;
+}
+header{
+    width: 100%;
+    background-color:;
+    padding: 60px 80px;
+    padding-bottom: 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo span:hover{
+    color: #FF4853;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.logo span{
+    color: #FFC100;
+}
+.navbar a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.navbar a:hover{
+    background-color: #ffc100;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.sbtn{
+    border-radius: 80px;
+    background-color: #FF4853;
+    padding: 10px 25px;
+    color: white;
+}
+
+.sbtn1 a{
+    margin-left: 1000px;
+}
+.navbar a:last-child:hover{
+    color: white;
+    background-color:#FFC100;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 80px 80px;
+}
+.hero-cont{
+    flex: 1;
+    margin-right: 20px;
+}
+.hero-cont h1{
+    font-size: 60px;
+}
+.hero-cont h1 span{
+    color: #FAA92F;
+}
+.hero-cont h1 span:hover{
+    color: #FF4853;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.hero-cont p{
+    width: 70%;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.hero-cont a{
+    text-decoration: none;
+    padding: 11px 60px;
+    border-radius: 80px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: #FAA92F;
+}
+.hero-cont a:hover{
+    background-color: #FF4853;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.hero-img{
+    flex: 1;
+}
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+
+.sec1{
+    padding: 70px 80px;
+}
+.sec1-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sec1-h{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 7px;
+}
+.sec1-l{
+    width: 100%;
+    margin-left: auto;
+    background-color: #FF4853;
+}
+.sec1-l hr{
+    height: 7px;
+    border: none;
+}
+.features{
+    margin: 100px 0px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.card {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #FF4853;
+ width: 30%;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+.card p {
+ margin-bottom: 20px;
+}
+
+.card img {
+ max-width: 100%;
+ height: 100%;
+
+}
+
+.sec2{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.sec2-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sec2-h{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 7px;
+}
+.sec2-l{
+    width: 100%;
+    margin-right: auto;
+    background-color: #FF4853;
+}
+.sec2-l hr{
+    height: 7px;
+    border: none;
+    display: block;
+}
+.sec2-box{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: ;
+}
+.sec2-cont{
+    flex: 1;
+    margin-right: 20px;
+}
+.sec2-cont h1{
+    font-size: 40px;
+}
+.sec2-cont p{
+    font-size: 16px;
+    margin: 30px 0;
+}
+.sec2-cont a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #FF4853;
+    border-radius: 80px;
+}
+.sec2-img{
+    flex: 1;
+}
+.sec2-img img{
+    display: block;
+    width: 85%;
+    float: right;
+    height: auto;
+}
+.sec3{
+    padding-bottom: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footer{
+    padding: 80px;
+    text-align: center;
+    color: #031926;
+    font-weight: bold;
+    background-color: #FAA92F;
+}
+@media (max-width: 768px) {
+    .hero-cont, .hero-img {
+       flex: 100%;
+       margin-right: 0;
+    }
+}
